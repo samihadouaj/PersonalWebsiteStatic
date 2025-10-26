@@ -27,10 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+## About Me
+
 I am a PhD candidate in Rackham Graduate School at the Department of Computer and Information Science at the University of Michigan-Dearborn. I work in the Database research lab under the supervision of professor Niccolo Meneghetti. I have a software engineering education as well as research experience in machine learning, systems, software optimization, parallel computing and more, as I am always willing to learn and evolve.
 
 <div class="cv-download-section">
-  <a href="/assets/pdf/resume.pdf" class="cv-download-btn" target="_blank">
+  <a href="{{ '/assets/pdf/resume.pdf' | relative_url }}" class="cv-download-btn" target="_blank">
     <i class="fa-solid fa-download"></i>
     <span>Download CV</span>
   </a>

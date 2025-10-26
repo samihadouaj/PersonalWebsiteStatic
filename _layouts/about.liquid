@@ -59,9 +59,51 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Teaching Experience -->
+    {% if page.teaching_experience %}
+      <h2>Teaching Experience</h2>
+      <div class="teaching-experience">
+        {% for experience in site.data.teaching %}
+          <div class="teaching-item">
+            <div class="teaching-header">
+              <h4 class="teaching-title">{{ experience.title }}</h4>
+              <span class="teaching-period">{{ experience.period }}</span>
+            </div>
+            <div class="teaching-details">
+              <p class="teaching-role"><strong>{{ experience.role }}</strong>  {{ experience.institution }}</p>
+              {% if experience.description %}
+                <p class="teaching-description">{{ experience.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Service -->
+    {% if page.service %}
+      <h2>service</h2>
+      <div class="service-experience">
+        {% for service in site.data.service %}
+          <div class="service-item">
+            <div class="service-header">
+              <h4 class="service-title">{{ service.conference }}</h4>
+              <span class="service-year">{{ service.year }}</span>
+            </div>
+            <div class="service-details">
+              <p class="service-role"{{ service.role }}</p>
+              {% if service.description %}
+                <p class="service-description">{{ service.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
     <!-- Social -->

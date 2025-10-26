@@ -23,3 +23,119 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Custom CSS to hide navbar
+header nav#navbar {
+  display: none !important;
+}
+
+// Teaching experience indentation
+.teaching-experience {
+  margin-left: 2rem;
+}
+
+// Service experience indentation
+.service-experience {
+  margin-left: 2rem;
+  
+  .service-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  .service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  .service-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+  
+  .service-year {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+  
+  .service-role {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+  }
+  
+  .service-description {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+  }
+}
+
+// Teaching Experience Styling
+.teaching-experience {
+  margin-top: 1rem;
+  
+  .teaching-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  .teaching-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  .teaching-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+  
+  .teaching-period {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+  
+  .teaching-role {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+  }
+  
+  .teaching-description {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+  }
+}

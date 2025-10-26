@@ -2,33 +2,41 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate at University of Michigan Rackham Graduate School
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: shadouaj_pic.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+teaching_experience: true # includes teaching experience section
+service: true # includes service section
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in Rackham Graduate School at the Department of Computer and Information Science at the University of Michigan-Dearborn. I work in the Database research lab under the supervision of professor Niccolo Meneghetti. I have a software engineering education as well as research experience in machine learning, systems, software optimization, parallel computing and more, as I am always willing to learn and evolve.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div class="cv-download-section">
+  <a href="/assets/pdf/resume.pdf" class="cv-download-btn" target="_blank">
+    <i class="fa-solid fa-download"></i>
+    <span>Download CV</span>
+  </a>
+</div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<br><br><br><br><br>
+
+**Research areas:** My research is focused on integrating Bayesian machine learning into database cores to natively handle uncertain and probabilistic data. My goal is to enable databases to perform statistical reasoning natively, so they can manage uncertainty and provide more reliable insights from complex and incomplete data. To realize this vision, I work at the intersection of data management and machine learning and probabilistic programming, developing new query execution engines that bridge the gap between relational queries and Bayesian inference
+while maintaining high performance.

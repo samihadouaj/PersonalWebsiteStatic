@@ -139,3 +139,15 @@ header nav#navbar {
     line-height: 1.5;
   }
 }
+
+// Fun stuff section styling - casual and relaxed
+.fun-stuff-section {
+  margin-left: 2rem;
+  
+  p {
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+    line-height: 1.7;
+    font-style: italic;
+  }
+}

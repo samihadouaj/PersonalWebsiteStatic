@@ -87,7 +87,7 @@ layout: default
 
     <!-- Service -->
     {% if page.service %}
-      <h2>service</h2>
+      <h2>Service</h2>
       <div class="service-experience">
         {% for service in site.data.service %}
           <div class="service-item">
@@ -103,6 +103,20 @@ layout: default
             </div>
           </div>
         {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Fun Stuff -->
+    {% if page.fun_stuff %}
+      <h2>Fun Facts</h2>
+      <div class="fun-stuff-section">
+        <p>
+          {% for item in site.data.fun_stuff %}
+            {% if item.description %}
+              {{ item.description }}{% unless forloop.last %} {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </p>
       </div>
     {% endif %}
 

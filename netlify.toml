@@ -1,5 +1,7 @@
 [build]
+  command = "mkdir -p _site && echo 'Redirect' > _site/index.html"
   publish = "_site"
+  ignore = "git diff --quiet HEAD^ HEAD"
 
 [[redirects]]
   from = "/*"

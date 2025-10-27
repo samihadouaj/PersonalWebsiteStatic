@@ -1,0 +1,8 @@
+[build]
+  publish = "_site"
+
+[[redirects]]
+  from = "/*"
+  to = "https://samihadouaj.github.io/PersonalWebsiteStatic/:splat"
+  status = 301
+  force = true

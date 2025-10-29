@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://samihadouaj.github.io/PersonalWebsiteStatic/sitemap.xml
+Sitemap: https://samihadouaj.github.io/sitemap.xml

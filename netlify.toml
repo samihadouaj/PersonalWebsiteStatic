@@ -1,0 +1,10 @@
+[build]
+  command = "mkdir -p _site && echo 'Redirect' > _site/index.html"
+  publish = "_site"
+  ignore = "git diff --quiet HEAD^ HEAD"
+
+[[redirects]]
+  from = "/*"
+  to = "https://samihadouaj.github.io/PersonalWebsiteStatic/:splat"
+  status = 301
+  force = true

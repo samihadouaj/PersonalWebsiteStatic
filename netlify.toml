@@ -5,6 +5,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://samihadouaj.github.io/PersonalWebsiteStatic/:splat"
+  to = "https://samihadouaj.github.io/:splat"
   status = 301
   force = true

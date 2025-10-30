@@ -31,7 +31,8 @@ latest_posts:
 
 ## About Me
 
-I am a PhD candidate at the Department of [Computer and Information Science](https://umdearborn.edu/cecs) at the University of Michigan-Dearborn, where I work in the Database Research Lab under the supervision of Professor [Niccolò Meneghetti](https://www-personal.umd.umich.edu/~niccolom/research/). My background includes software engineering and research experience across machine learning, systems, software optimization, and parallel computing. I am always eager to learn and grow.
+I am a PhD candidate at the Department of [Computer and Information Science](https://umdearborn.edu/cecs) at the University of Michigan-Dearborn advised by Dr. [Niccolò Meneghetti](https://www-personal.umd.umich.edu/~niccolom/research/). My background includes software engineering and research experience across machine learning, systems, software optimization, and parallel computing. I am always eager to learn and grow.
+
 
 <div class="cv-download-section">
   <a href="{{ '/assets/pdf/resume.pdf' | relative_url }}" class="cv-download-btn" target="_blank">
